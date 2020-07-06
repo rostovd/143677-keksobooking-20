@@ -23,7 +23,7 @@ function generateMockItems() {
       },
       offer: {
         title: 'Title ' + i + 1,
-        price: getRandomInt(1, 9999),
+        price: getRandomInt(1, 9998),
         type: arrOfTypes[getRandomInt(1, 4)],
         rooms: getRandomInt(1, 6),
         guests: getRandomInt(1, 5),
