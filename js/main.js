@@ -8,6 +8,7 @@ function getRandomInt(min, max) {
 }
 
 
+
 function generateMockItems() {
   var el = document.querySelector('.map');
   var maximumX = el.offsetWidth;
